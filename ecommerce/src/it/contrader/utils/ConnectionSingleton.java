@@ -22,10 +22,10 @@ public class ConnectionSingleton {
                 String vendor="mysql";
                 String driver="com.mysql.cj.jdbc.Driver";
                 String host="127.0.0.1";
-                String port="3307";
+                String port="3306";
                 String dbName="ecommerce";
                 String username="root";
-                String password ="Maryannplace1!";
+                String password ="INSERIREPASSWORD";
                 String jdbcAdditionalParams="useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useLegacyDatetimeCode=false";
                 Class<?> c = Class.forName(driver);
                 System.out.println("Ho caricato: " + c.getName());
